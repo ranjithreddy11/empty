@@ -1,0 +1,17 @@
+
+postgres_target_db:
+     target:  dev
+     outputs:
+
+          dev:
+               type: postgres
+               threads: 10
+               host: localhost
+               port: 5432
+               user: postgres
+               pass: ranjith
+               dbname: postgres
+               schema: public
+
+
+   
